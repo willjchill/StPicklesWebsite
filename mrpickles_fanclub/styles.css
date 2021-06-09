@@ -1,0 +1,90 @@
+.title {
+    color: #336600; 
+    font-size: 50px;
+    margin: 10px; 
+    text-align: center; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: blanchedalmond;
+}
+
+.info, caption, blockquote, ol { 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 10px;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+
+.subheaders { 
+    font-family: verdana;
+    margin: 35px;
+    font-size:35px;
+    text-align: center;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9;
+    background-image: url('pattern.png');
+}
+
+#mainheader {
+    background-color: #a593c2;
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+
+#leftmenu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.searchbox {
+    padding: 5x;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#main {
+    float: right;
+    margin-bottom: 20px;
+    width: 70%
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+table, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    font-size: 25px;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    float:left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
